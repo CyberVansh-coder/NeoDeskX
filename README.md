@@ -11,7 +11,6 @@ Whether you're a developer, gamer, or tech enthusiast, NeoDeskX delivers a porta
 - wine_glass: **Windows App Support:** Run Windows apps using Wine (x86_64 on ARM64 devices).
 - mechanical_arm: **Hardware Acceleration:** Enhances performance for supported hardware.
 - paperclips: **GUI Access:** Supports Termux:X11 and VNC.
-- package: **Package Management:** Compatible with both APT and [PACMAN](https://youtu.be/ditNvG5Nxj0).
 - shopping: **App Store:** A appstore to install apps from termux and suppoted proot-distro.
 - jigsaw: **One-Click App
 
