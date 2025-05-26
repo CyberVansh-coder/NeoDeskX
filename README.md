@@ -6,14 +6,14 @@ Whether you're a developer, gamer, or tech enthusiast, NeoDeskX delivers a porta
 
 ## Key Features:
 
-- :books: **Quick Setup:** Easy-to-follow installation process.
-- :desktop_computer: **Desktop Styles:** Supports **XFCE**, **LXQt**, and **OPENBOX** with beautiful themes.
-- :wine_glass: **Windows App Support:** Run Windows apps using Wine (x86_64 on ARM64 devices).
-- :mechanical_arm: **Hardware Acceleration:** Enhances performance for supported hardware.
-- :paperclips: **GUI Access:** Supports Termux:X11 and VNC.
-- :package: **Package Management:** Compatible with both APT and [PACMAN](https://youtu.be/ditNvG5Nxj0).
-- :shopping: **App Store:** A appstore to install apps from termux and suppoted proot-distro.
-- :jigsaw: **One-Click App
+- books: **Quick Setup:** Easy-to-follow installation process.
+- desktop_computer: **Desktop Styles:** Supports **XFCE**, **LXQt**, and **OPENBOX** with beautiful themes.
+- wine_glass: **Windows App Support:** Run Windows apps using Wine (x86_64 on ARM64 devices).
+- mechanical_arm: **Hardware Acceleration:** Enhances performance for supported hardware.
+- paperclips: **GUI Access:** Supports Termux:X11 and VNC.
+- package: **Package Management:** Compatible with both APT and [PACMAN](https://youtu.be/ditNvG5Nxj0).
+- shopping: **App Store:** A appstore to install apps from termux and suppoted proot-distro.
+- jigsaw: **One-Click App
 
 - XFCE4 Desktop Environment
 Lightweight and responsive graphical interface ideal for mobile devices.
