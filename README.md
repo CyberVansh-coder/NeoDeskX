@@ -1,12 +1,8 @@
-<p align="center"><b style="font-size: xx-large">Easily Install Termux GUI Desktop</b></p>
+## NeoDeskX – Turn Your Android into a Full Linux Desktop with Wine, Game Streaming, and More
 
-<div align="center">
+NeoDeskX is a powerful all-in-one Termux-based Linux desktop setup for Android devices. It transforms any Android phone (Android 8–13+) into a fully-functional XFCE desktop environment with support for Wine applications, game streaming (Moonlight), and remote input control — optimized for performance, gaming, and multitasking.
 
-![GitHub stars](https://img.shields.io/github/stars/sabamdarif/termux-desktop?style=for-the-badge) ![GitHub forks](https://img.shields.io/github/forks/sabamdarif/termux-desktop?color=teal&style=for-the-badge) ![GitHub issues](https://img.shields.io/github/issues/sabamdarif/termux-desktop?color=violet&style=for-the-badge) ![GitHub repo size](https://img.shields.io/github/repo-size/sabamdarif/termux-desktop?style=for-the-badge) ![GitHub License](https://img.shields.io/github/license/sabamdarif/termux-desktop?style=for-the-badge)
-
-</div>
-
----
+Whether you're a developer, gamer, or tech enthusiast, NeoDeskX delivers a portable and flexible desktop experience directly on your Android device without root access.
 
 ## Key Features:
 
@@ -17,13 +13,40 @@
 - :paperclips: **GUI Access:** Supports Termux:X11 and VNC.
 - :package: **Package Management:** Compatible with both APT and [PACMAN](https://youtu.be/ditNvG5Nxj0).
 - :shopping: **App Store:** A appstore to install apps from termux and suppoted proot-distro.
-- :jigsaw: **One-Click App Installation:**
-  - Browsers: Firefox, Chromium
-  - Code Editors: VS Code, Geany
-  - Image Editors: GIMP, Inkscape
-  - And more...
-- :package: **Additional Apps:** Install apps like LibreOffice not available by default in Termux.
-- :art: **Customizations:** Extensive configuration options to suit user preferences.
+- :jigsaw: **One-Click App
+
+- XFCE4 Desktop Environment
+Lightweight and responsive graphical interface ideal for mobile devices.
+
+- Wine 32-bit Support
+Run classic Windows applications like GTA Vice City, Counter-Strike 1.6, Notepad++, etc.
+
+- Pre-installed Lightweight Linux Games
+Includes SuperTux, Pingus, LBreakout2, SuperTuxKart, and more for offline fun.
+
+- Game Streaming with Moonlight
+Stream high-end PC games (like GTA V, Cyberpunk 2077) to Android via NVIDIA GameStream.
+
+- USB & WiFi Input Bridge
+Use your Android device as a full mouse and keyboard over USB or WiFi — ideal for remote desktop sessions.
+
+- External Gamepad/Joystick Support
+Connect and use external Bluetooth/USB controllers for enhanced gaming.
+
+- Custom Installer with UI Banners
+Eye-catching ASCII art banners and UI for installation steps.
+
+- Hardware Compatibility Check
+Automatically verifies Android version, GPU, architecture, storage, and more before installation.
+
+- Offline Assets & Wallpapers
+Includes .7z archive with wallpapers, configuration files, and helper scripts for seamless setup.
+
+- Multi-DE Support (Optional)
+Choose between XFCE, LXQT, MATE, i3WM, Openbox, and more — tailored to your needs.
+
+- No Root Required
+100% Termux-compatible and works without any root access.
 
 --- 
 
