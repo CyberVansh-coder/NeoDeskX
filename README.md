@@ -257,7 +257,7 @@ pkg update -y && pkg install -y git && git clone https://github.com/CyberVansh-c
 | Feature / Edition                        | **Basic** | **Pro** |
 |-----------------------------------------|:---------:|:-------:|
 | **XFCE4 Desktop Environment**           | ✅        | ✅      |
-| **32-bit Wine Support** (x86 apps)      | ❌        | ✅      |
+| **32-bit Wine Support** (x86 apps)      | ✅        | ✅      |
 | **Pre-installed Linux Games**           | ⚪️ Few    | ✅ Some |
 | **Moonlight Game Streaming**            | ❌        | ✅      |
 | **USB/WiFi Input Bridge**               | ❌        | ✅      |
