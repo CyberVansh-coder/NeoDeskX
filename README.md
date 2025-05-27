@@ -1,5 +1,6 @@
 ## NeoDeskX – Turn Your Android into a Full Linux Desktop with Wine, Game Streaming, and More
 
+## 📖 Overview
 NeoDeskX is a powerful all-in-one Termux-based Linux desktop setup for Android devices. It transforms any Android phone (Android 8–13+) into a fully-functional XFCE desktop environment with support for Wine applications, game streaming (Moonlight), and remote input control — optimized for performance, gaming, and multitasking.
 
 Whether you're a developer, gamer, or tech enthusiast, NeoDeskX delivers a portable and flexible desktop experience directly on your Android device without root access.
@@ -115,11 +116,24 @@ To install either the **NeoDeskX** or **NeoDeskX Emulator**, please install the 
 
 - **Input Bridge v0.1.9.9 (Overlay HUD/Controller)** : This application allows you to create a touch screen overlay or heads-up display (HUD) that can function as a customizable controller.  
   [![Download Input Bridge](https://img.shields.io/badge/Download-Input%20Bridge-ff69b4?style=for-the-badge&logo=controller)](https://github.com/ahmad1abbadi/extra/releases/download/apps/InputBridge_v0.1.9.9.apk) - click to download
-  
+
+## 🧰 Requirements
+
+- **Android**: Version 8 to 13
+- **RAM**: Minimum 2GB (4GB+ recommended)
+- **Storage**: 3-4GB free space
+- **Termux**: Latest version from F-Droid
+- **Optional**: NVIDIA GPU (on PC) for Moonlight streaming
+
 ## installation 
 ```
 pkg update -y && pkg install -y git && git clone https://github.com/CyberVansh-coder/NeoDeskX.git && cd NeoDeskX && bash install.sh
 ```
+## Screenshot 
+
+
+
+
 
 ---
 
@@ -226,5 +240,45 @@ pkg update -y && pkg install -y git && git clone https://github.com/CyberVansh-c
 - `setup-termux-desktop --remove`  
 - `setup-termux-desktop --local-config`  
 - `setup-termux-desktop --debug --install`
+
+---
+
+---
+
+## 💳 Pricing
+
+NeoDeskX एक premium setup है जो advanced features और ready-to-use offline system के साथ आता है।
+
+| Version | Included Features | Price (INR) | Price (USD) |
+|---------|-------------------|-------------|-------------|
+| **Basic** | XFCE desktop, Wine support, Linux games | ₹199 | $2.49 |
+| **Pro** | Full Wine32, Input Bridge (USB/WiFi), Moonlight, Wallpapers, Themes, App Store | ₹349 | $4.49 |
+| **Ultimate** | All features + Personal Support + Early Updates | ₹499 | $6.49 |
+
+> **UPI / PayPal / Ko-fi support available.**  
+> खरीदने के लिए: [notvansh6@gmail.com](mailto:notvansh6@gmail.com) पर संपर्क करें या Telegram पर message करें।
+
+---
+
+❓ FAQ
+
+Q1: Is this compatible with all Android devices?
+
+> Yes, it has been tested on Android versions 8 to 13 and works across major CPUs like Qualcomm, MediaTek, and Exynos.
+
+
+
+Q2: Which Windows apps run using Wine?
+
+> Lightweight Windows applications such as Notepad++, GTA Vice City, Counter-Strike 1.6, Paint.NET, and WinRAR run smoothly.
+
+
+
+Q3: Does this work without internet access?
+
+> Yes, NeoDeskX.7z includes offline scripts, assets, wallpapers, and essential configuration files for a complete offline setup.
+
+
+
 
 ---
