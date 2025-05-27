@@ -286,6 +286,9 @@ Q3: Does this work without internet access?
 > Yes, NeoDeskX.7z includes offline scripts, assets, wallpapers, and essential configuration files for a complete offline setup.
 
 
-
-
 ---
+
+<br>
+<p align="center">Made with ❤️ By CyberVansh-coder <a /
+"></a></p>
+<p align="center" style="font-size: 8px">v5.5 <a href="https://github.com/CyberVansh-coder/NeoDeskX.git">Credit!</a></p>
