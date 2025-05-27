@@ -257,30 +257,47 @@ NeoDeskX एक premium setup है जो advanced features और ready-to-us
 | **Pro** | Full Wine32, Input Bridge (USB/WiFi), Moonlight, Wallpapers, Themes, App Store | ₹199 | $2.49 |
 | **Ultimate** | All features + Personal Support + Early Updates | ₹299 | $3.99 |
 
-✅ Difference Chart:
+### NeoDeskX Edition Comparison Chart
 
-Feature	Basic	Pro	Ultimate
+| Feature / Edition                        | **Basic** | **Pro** | **Ultimate** |
+|-----------------------------------------|:---------:|:-------:|:------------:|
+| **XFCE4 Desktop Environment**           | ✅        | ✅      | ✅           |
+| **32-bit Wine Support** (x86 apps)      | ❌        | ✅      | ✅           |
+| **Pre-installed Linux Games**           | ⚪️ Few    | ✅ Some | ✅ Full Pack |
+| **Moonlight Game Streaming**            | ❌        | ✅      | ✅           |
+| **USB/WiFi Input Bridge**               | ❌        | ✅      | ✅           |
+| **Bluetooth Gamepad Support**           | ❌        | ❌      | ✅           |
+| **Custom Themes & Icons**               | ❌        | ✅      | ✅+Extra     |
+| **Autostart & Performance Tweaks**      | ❌        | ❌      | ✅           |
+| **Offline Assets (wallpapers etc.)**    | ✅ Minimal| ✅      | ✅ HD Pack   |
+| **Proot-Distro Options**                | 1 (Debian)| 2+      | 3+           |
+| **Termux:X11 & VNC GUI Support**        | ✅        | ✅      | ✅           |
+| **ASCII Art UI Installer**              | ✅        | ✅      | ✅ Advanced  |
+| **Hardware Compatibility Check**        | ✅        | ✅      | ✅           |
+| **Auto-Update Ready**                   | ❌        | ⚠️ Manual| ✅ Full Sync |
+| **Priority Support & Bug Fixes**        | ❌        | ❌      | ✅           |
 
-XFCE Desktop	✅	✅	✅
-Wine (32-bit ready)	⛔	✅	✅
-Input Bridge (USB/WiFi)	⛔	✅	✅
-Moonlight Streaming	⛔	✅	✅
-Wallpapers & Themes	⛔	✅	✅
-External Gamepad Support	⛔	⛔	✅
-Auto-start & performance tweaks	⛔	⛔	✅
-Personal Support + Updates	⛔	⛔	✅
+---
 
-> UPI / PayPal / Ko-fi support available.
+### Pricing
 
-Contact to Purchase:
+| Edition   | INR      | USD     |
+|-----------|----------|---------|
+| Basic     | ₹59      | $0.79   |
+| Pro       | ₹129     | $1.59   |
+| Ultimate  | ₹199     | $2.39   |
 
-• Telegram: 
-https://t.me@CyberVanshcoder
+---
 
-• Phone / WhatsApp: `+91 80767 76188`
+### Contact to Purchase
 
-• Email: notvansh6@gmail.com
-
+- **Telegram:** [@CyberVanshcoder](https://t.me/CyberVanshcoder)
+- 
+- **WhatsApp/Phone:** `+91 80767 76188`
+- 
+- **Email:** notvansh6@gmail.com
+- 
+- **UPI / PayPal / Ko-fi support available**
 ---
 ---
 
