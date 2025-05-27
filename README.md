@@ -278,8 +278,8 @@ pkg update -y && pkg install -y git && git clone https://github.com/CyberVansh-c
 
 | Edition   | INR      | USD     |
 |-----------|----------|---------|
-| Basic     | ₹59      | $0.79   |
-| Pro       | ₹129     | $1.59   |
+| Basic     | ₹199     | $2.79   |
+| Pro       | ₹249     | $3.59   |
 
 ---
 
