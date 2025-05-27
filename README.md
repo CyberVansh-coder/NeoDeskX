@@ -104,6 +104,18 @@ Stylish terminal UI with ASCII banners and step-by-step prompts for better clari
 
 --- 
 
+To install either the **NeoDeskX** or **NeoDeskX Emulator**, please install the following applications :
+
+- **Termux** : A terminal emulator for Android that allows you to run Linux commands on your device.  
+  [![Download Termux](https://img.shields.io/badge/Download-Termux-brightgreen?style=for-the-badge&logo=android)](https://github.com/termux/termux-app/releases/download/v0.118.2/termux-app_v0.118.2+github-debug_arm64-v8a.apk) - click to download
+
+- **Termux-X11 (Xserver)** : Required for running graphical applications within Termux, providing a graphical user interface.
+- [![Download Termux-X11](https://img.shields.io/badge/Download-Termux--X11-blue?style=for-the-badge&logo=linux)](https://github.com/termux/termux-x11/releases/download/nightly/app-arm64-v8a-debug.apk) - click to download
+  
+
+- **Input Bridge v0.1.9.9 (Overlay HUD/Controller)** : This application allows you to create a touch screen overlay or heads-up display (HUD) that can function as a customizable controller.  
+  [![Download Input Bridge](https://img.shields.io/badge/Download-Input%20Bridge-ff69b4?style=for-the-badge&logo=controller)](https://github.com/ahmad1abbadi/extra/releases/download/apps/InputBridge_v0.1.9.9.apk) - click to download
+  
 ## installation 
 ```
 pkg update -y && pkg install -y git && git clone https://github.com/CyberVansh-coder/NeoDeskX.git && cd NeoDeskX && bash install.sh
