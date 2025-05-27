@@ -4,11 +4,9 @@ NeoDeskX is a powerful all-in-one Termux-based Linux desktop setup for Android d
 
 Whether you're a developer, gamer, or tech enthusiast, NeoDeskX delivers a portable and flexible desktop experience directly on your Android device without root access.
 
-## Features:
+## ✨ Features:
 
 ---
-
-✨ Key Features of NeoDeskX
 
 ⚡ Quick & Easy Installation
 
