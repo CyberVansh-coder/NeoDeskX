@@ -249,23 +249,23 @@ pkg update -y && pkg install -y git && git clone https://github.com/CyberVansh-c
 
 ## NeoDeskX Edition Comparison Chart
 
-| Feature / Edition                        | **Basic** | **Pro** | **Ultimate** |
-|-----------------------------------------|:---------:|:-------:|:------------:|
-| **XFCE4 Desktop Environment**           | ✅        | ✅      | ✅           |
-| **32-bit Wine Support** (x86 apps)      | ❌        | ✅      | ✅           |
-| **Pre-installed Linux Games**           | ⚪️ Few    | ✅ Some | ✅ Full Pack |
-| **Moonlight Game Streaming**            | ❌        | ✅      | ✅           |
-| **USB/WiFi Input Bridge**               | ❌        | ✅      | ✅           |
-| **Bluetooth Gamepad Support**           | ❌        | ❌      | ✅           |
-| **Custom Themes & Icons**               | ❌        | ✅      | ✅+Extra     |
-| **Autostart & Performance Tweaks**      | ❌        | ❌      | ✅           |
-| **Offline Assets (wallpapers etc.)**    | ✅ Minimal| ✅      | ✅ HD Pack   |
-| **Proot-Distro Options**                | 1 (Debian)|1 (Debian)|1 (Debian)|       |              |
-| **Termux:X11 & VNC GUI Support**        | ✅        | ✅      | ✅           |
-| **ASCII Art UI Installer**              | ✅        | ✅      | ✅ Advanced  |
-| **Hardware Compatibility Check**        | ✅        | ✅      | ✅           |
-| **Auto-Update Ready**                   | ❌        | ⚠️ Manual| ✅ Full Sync |
-| **Priority Support & Bug Fixes**        | ❌        | ❌      | ✅           |
+| Feature / Edition                        | **Basic** | **Pro** |
+|-----------------------------------------|:---------:|:-------:|
+| **XFCE4 Desktop Environment**           | ✅        | ✅      |
+| **32-bit Wine Support** (x86 apps)      | ❌        | ✅      |
+| **Pre-installed Linux Games**           | ⚪️ Few    | ✅ Some |
+| **Moonlight Game Streaming**            | ❌        | ✅      |
+| **USB/WiFi Input Bridge**               | ❌        | ✅      |
+| **Bluetooth Gamepad Support**           | ❌        | ❌      |
+| **Custom Themes & Icons**               | ❌        | ✅      |
+| **Autostart & Performance Tweaks**      | ❌        | ❌      |
+| **Offline Assets (wallpapers etc.)**    | ✅ Minimal| ✅      |
+| **Proot-Distro Options**                | 1 (Debian)| 2+      |
+| **Termux:X11 & VNC GUI Support**        | ✅        | ✅      |
+| **ASCII Art UI Installer**              | ✅        | ✅      |
+| **Hardware Compatibility Check**        | ✅        | ✅      |
+| **Auto-Update Ready**                   | ❌        | ⚠️ Manual|
+| **Priority Support & Bug Fixes**        | ❌        | ❌      |
 
 ---
 
@@ -275,7 +275,6 @@ pkg update -y && pkg install -y git && git clone https://github.com/CyberVansh-c
 |-----------|----------|---------|
 | Basic     | ₹59      | $0.79   |
 | Pro       | ₹129     | $1.59   |
-| Ultimate  | ₹199     | $2.39   |
 
 ---
 
