@@ -247,17 +247,7 @@ pkg update -y && pkg install -y git && git clone https://github.com/CyberVansh-c
 
 ---
 
-## 💳 Pricing
-
-NeoDeskX एक premium setup है जो advanced features और ready-to-use offline system के साथ आता है।
-
-| Version | Included Features | Price (INR) | Price (USD) |
-|---------|-------------------|-------------|-------------|
-| **Basic** | XFCE desktop, Wine support, Linux games | ₹99 | $1.29 |
-| **Pro** | Full Wine32, Input Bridge (USB/WiFi), Moonlight, Wallpapers, Themes, App Store | ₹199 | $2.49 |
-| **Ultimate** | All features + Personal Support + Early Updates | ₹299 | $3.99 |
-
-### NeoDeskX Edition Comparison Chart
+## NeoDeskX Edition Comparison Chart
 
 | Feature / Edition                        | **Basic** | **Pro** | **Ultimate** |
 |-----------------------------------------|:---------:|:-------:|:------------:|
