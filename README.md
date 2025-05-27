@@ -260,7 +260,7 @@ pkg update -y && pkg install -y git && git clone https://github.com/CyberVansh-c
 | **Custom Themes & Icons**               | ❌        | ✅      |
 | **Autostart & Performance Tweaks**      | ❌        | ✅      |
 | **Offline Assets (wallpapers etc.)**    | ✅ Minimal| ✅      |
-| **Proot-Distro Options**                | 1 (Debian)| 2+      |
+| **Proot-Distro Options**                | 1 (Debian)| 1 (Debian)     |
 | **Termux:X11 & VNC GUI Support**        | ✅        | ✅      |
 | **ASCII Art UI Installer**              | ✅        | ✅      |
 | **Hardware Compatibility Check**        | ✅        | ✅      |
