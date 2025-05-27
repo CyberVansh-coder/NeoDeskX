@@ -105,6 +105,8 @@ Stylish terminal UI with ASCII banners and step-by-step prompts for better clari
 
 --- 
 
+## Basic installation requirements:
+
 To install either the **NeoDeskX** or **NeoDeskX Emulator**, please install the following applications :
 
 - **Termux** : A terminal emulator for Android that allows you to run Linux commands on your device.  
