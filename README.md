@@ -257,6 +257,19 @@ NeoDeskX एक premium setup है जो advanced features और ready-to-us
 | **Pro** | Full Wine32, Input Bridge (USB/WiFi), Moonlight, Wallpapers, Themes, App Store | ₹199 | $2.49 |
 | **Ultimate** | All features + Personal Support + Early Updates | ₹299 | $3.99 |
 
+✅ Difference Chart:
+
+Feature	Basic	Pro	Ultimate
+
+XFCE Desktop	✅	✅	✅
+Wine (32-bit ready)	⛔	✅	✅
+Input Bridge (USB/WiFi)	⛔	✅	✅
+Moonlight Streaming	⛔	✅	✅
+Wallpapers & Themes	⛔	✅	✅
+External Gamepad Support	⛔	⛔	✅
+Auto-start & performance tweaks	⛔	⛔	✅
+Personal Support + Updates	⛔	⛔	✅
+
 > UPI / PayPal / Ko-fi support available.
 
 Contact to Purchase:
