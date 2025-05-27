@@ -3,9 +3,9 @@
 clear
 echo -e "\033[1;36m"
 /bin/cat << "EOF"
- /$$   /$$                     /$$$$$$$                      /$$       /$$   /$$                                           /$$ /$$                    
-| $$$ | $$                    | $$__  $$                    | $$      | $$  / $$                                     | $$| $$                    
-| $$$$| $$  /$$$$$$   /$$$$$$ | $$  \ $$  /$$$$$$   /$$$$$$$| $$   /$$|  $$/ $$/        
+ /$$   /$$                     /$$$$$$$                      /$$       /$$   /$$                                                            
+| $$$ | $$                    | $$__  $$                    | $$      | $$  / $$                                                      
+| $$$$| $$  /$$$$$$   /$$$$$$ | $$  \ $$  /$$$$$$   /$$$$$$$| $$   /$$|  $$/ $$/       
 | $$ $$ $$ /$$__  $$ /$$__  $$| $$  | $$ /$$__  $$ /$$_____/| $$  /$$/ \  $$$$/        
 | $$  $$$$| $$$$$$$$| $$  \ $$| $$  | $$| $$$$$$$$|  $$$$$$ | $$$$$$/   >$$  $$         
 | $$\  $$$| $$_____/| $$  | $$| $$  | $$| $$_____/ \____  $$| $$_  $$  /$$/\  $$              
@@ -34,19 +34,13 @@ echo "[*] Extracting NeoDeskX.7z..."
 echo "[*] Extracting NeoDeskX.zip..."
 unzip -o NeoDeskX.zip || { echo "[!] Failed to extract NeoDeskX.zip"; exit 1; }
 
-# Step 3: Make scripts executable
-echo "[*] Making scripts executable..."
-chmod +x setup-termux-NeoDeskX distro-container-setup enable-hw-acceleration
+# Step 3: Make main script executable
+echo "[*] Making main script executable..."
+chmod +x setup-termux-NeoDeskX
 
-# Step 4: Run setup scripts
+# Step 4: Run main setup script
 echo "[*] Running setup-termux-NeoDeskX..."
 ./setup-termux-NeoDeskX || { echo "[!] setup-termux-NeoDeskX failed"; exit 1; }
-
-echo "[*] Running distro-container-setup..."
-./distro-container-setup || { echo "[!] distro-container-setup failed"; exit 1; }
-
-echo "[*] Enabling hardware acceleration..."
-./enable-hw-acceleration || { echo "[!] enable-hw-acceleration failed"; exit 1; }
 
 echo ""
 echo -e "\033[1;32m[✔] NeoDeskX Installation Completed Successfully!\033[0m"
