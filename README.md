@@ -133,8 +133,13 @@ pkg update -y && pkg install -y git && git clone https://github.com/CyberVansh-c
 ```
 ## Screenshot 
 
+![NeoDeskX Screenshot](https://github.com/CyberVansh-coder/NeoDeskX/blob/684f00893e6c21fb6284b41fab9941d807f2c1a7/screenshot/Screenshot_20250527-154527_Chrome.jpg)
 
+![NeoDeskX Screenshot](https://github.com/CyberVansh-coder/NeoDeskX/blob/684f00893e6c21fb6284b41fab9941d807f2c1a7/screenshot/Screenshot_20250527-154535_Chrome.jpg)
 
+![NeoDeskX Screenshot](https://github.com/CyberVansh-coder/NeoDeskX/blob/684f00893e6c21fb6284b41fab9941d807f2c1a7/screenshot/Screenshot_20250527-154928_Chrome.jpg)
+
+![NeoDeskX Screenshot](https://github.com/CyberVansh-coder/NeoDeskX/blob/684f00893e6c21fb6284b41fab9941d807f2c1a7/screenshot/Screenshot_20250527-154932_Chrome.jpg)
 
 
 ---
