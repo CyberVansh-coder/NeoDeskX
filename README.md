@@ -291,4 +291,4 @@ Q3: Does this work without internet access?
 <br>
 <p align="center">Made with ❤️ By CyberVansh-coder <a /
 "></a></p>
-<p align="center" style="font-size: 8px">v5.5 <a href="https://github.com/CyberVansh-coder/NeoDeskX.git">Credit!</a></p>
+<p align="center" style="font-size: 8px">v5.5 <a href="https://github.com/CyberVansh-coder/NeoDeskX.git">Repository!</a></p>
