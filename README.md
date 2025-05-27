@@ -120,162 +120,111 @@ To install either the **NeoDeskX** or **NeoDeskX Emulator**, please install the 
 ```
 pkg update -y && pkg install -y git && git clone https://github.com/CyberVansh-coder/NeoDeskX.git && cd NeoDeskX && bash install.sh
 ```
+
+---
+
 ## 📘 Command Reference
 
 ### 🟢 Start Termux:X11
-```bash
-tx11start [options]
 
-Options:
+**Cmd:** `tx11start`
 
---nogpu : Disable GPU acceleration
+**Options:**
+- `--nogpu` : Disable GPU acceleration  
+- `--legacy` : Enable legacy drawing  
+- `--nodbus` : Disable DBus  
+- `--debug` : Enable logging/debug mode  
+- `--help` : Show help message  
 
---legacy : Enable legacy drawing
-
---nodbus : Disable DBus
-
---debug : Enable logging/debug mode
-
---help : Show help message
-
-
-<details>
-<summary>🔧 Usage Examples</summary>tx11start – Start Termux:X11 with GPU acceleration
-
-tx11start --nogpu – Without GPU acceleration
-
-tx11start --nogpu --legacy – Disable GPU & enable legacy drawing
-
-tx11start --nodbus – Disable DBus
-
-tx11start --nodbus --nogpu – Disable GPU & DBus
-
-tx11start --nodbus --nogpu --legacy – Disable GPU, DBus & enable legacy drawing
-
-tx11start --legacy – Enable legacy drawing with GPU & DBus
-
-tx11start --debug --nogpu – Debug log for --nogpu mode
-
-
-</details>
----
-
-🔴 Stop Termux:X11
-
-tx11stop [-f]
-
-Options:
-
--f : Force stop
-
---help : Show help message
-
-
+**Examples:**
+- `tx11start`
+- `tx11start --nogpu`
+- `tx11start --nogpu --legacy`
+- `tx11start --nodbus`
+- `tx11start --nodbus --nogpu`
+- `tx11start --nodbus --nogpu --legacy`
+- `tx11start --legacy`
+- `tx11start --debug --nogpu`
 
 ---
 
-🟢 Start VNC Server
+### 🔴 Stop Termux:X11
 
-vncstart [options]
+**Cmd:** `tx11stop [-f]`
 
-Options:
-
---nogpu : Disable GPU acceleration
-
---help : Show help message
-
-
+**Options:**
+- `-f` : Force stop  
+- `--help` : Show help message  
 
 ---
 
-🔴 Stop VNC Server
+### 🟢 Start VNC Server
 
-vncstop [-f]
+**Cmd:** `vncstart [options]`
 
-Options:
-
--f : Force stop
-
---help : Show help message
-
-
+**Options:**
+- `--nogpu` : Disable GPU acceleration  
+- `--help` : Show help message  
 
 ---
 
-🖥️ GUI Control Commands
+### 🔴 Stop VNC Server
 
-gui [options]
+**Cmd:** `vncstop [-f]`
 
-Options:
+**Options:**
+- `-f` : Force stop  
+- `--help` : Show help message  
 
---start or -l : Start GUI session (vnc or tx11)
-
---stop or -s : Stop GUI session
-
---kill or -k : Kill all GUI sessions (VNC + Termux:X11)
-
---help : Show help message
-
-
-<details>
-<summary>🔧 Usage Examples</summary>gui --start or gui -l – Start GUI (default)
-
-gui --start vnc – Start VNC session
-
-gui --start tx11 – Start Termux:X11 session
-
-gui --stop or gui -s – Stop current GUI
-
-gui --stop vnc – Stop VNC session
-
-gui --stop tx11 – Stop Termux:X11 session
-
-gui --kill – Kill all active GUI sessions
-
-
-</details>
 ---
 
-⚙️ Setup Commands
+### 🖥️ GUI Control
 
-setup-termux-desktop [options]
+**Cmd:** `gui [options]`
 
-Options:
+**Options:**
+- `--start` or `-l` : Start GUI (`vnc` or `tx11`)  
+- `--stop` or `-s` : Stop GUI  
+- `--kill` or `-k` : Kill all GUI sessions  
+- `--help` : Show help message  
 
---change style : Change desktop environment
+**Examples:**
+- `gui --start`  
+- `gui --start vnc`  
+- `gui --start tx11`  
+- `gui --stop`  
+- `gui --stop vnc`  
+- `gui --stop tx11`  
+- `gui --kill`
 
---change hw : Modify hardware acceleration method
+---
 
---change pd : Change current Proot-Distro
+### ⚙️ Setup Termux Desktop
 
---change autostart : Modify autostart behavior
+**Cmd:** `setup-termux-desktop [options]`
 
---change display : Change Termux:X11 display port
+**Options:**
+- `--change style` : Change desktop environment  
+- `--change hw` : Modify hardware acceleration  
+- `--change pd` : Change Proot-Distro  
+- `--change autostart` : Modify autostart behavior  
+- `--change display` : Change X11 display port  
+- `--reinstall icons,themes,config` : Reinstall UI components  
+- `--reset` : Reset everything  
+- `--remove` or `-r` : Uninstall Termux Desktop  
+- `--local-config` or `-config` : Install using a local config file  
+- `--debug` : Enable debug mode  
 
---reinstall icons,themes,config : Reinstall themes and config assets
+**Examples:**
+- `setup-termux-desktop --change style`  
+- `setup-termux-desktop --change hw`  
+- `setup-termux-desktop --change pd`  
+- `setup-termux-desktop --change autostart`  
+- `setup-termux-desktop --change display`  
+- `setup-termux-desktop --reinstall icons,themes,config`  
+- `setup-termux-desktop --reset`  
+- `setup-termux-desktop --remove`  
+- `setup-termux-desktop --local-config`  
+- `setup-termux-desktop --debug --install`
 
---reset : Reset all customizations without uninstalling
-
---remove or -r : Completely uninstall Termux Desktop
-
---local-config or -config : Install using a pre-made local config
-
---debug : Enable debug log creation
-
-
-<details>
-<summary>🔧 Usage Examples</summary>setup-termux-desktop --change style – Switch between XFCE, LXQt, etc.
-
-setup-termux-desktop --change hw – Change hardware acceleration (GPU/No GPU)
-
-setup-termux-desktop --reinstall icons,themes,config – Reinstall UI components
-
-setup-termux-desktop --reset – Reset customizations
-
-setup-termux-desktop --remove – Uninstall Termux Desktop
-
-setup-termux-desktop --debug --install – Log the installation process
-
-
-</details>
 ---
