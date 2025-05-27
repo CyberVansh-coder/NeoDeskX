@@ -256,16 +256,16 @@ pkg update -y && pkg install -y git && git clone https://github.com/CyberVansh-c
 | **Pre-installed Linux Games**           | ⚪️ Few    | ✅ Some |
 | **Moonlight Game Streaming**            | ❌        | ✅      |
 | **USB/WiFi Input Bridge**               | ❌        | ✅      |
-| **Bluetooth Gamepad Support**           | ❌        | ❌      |
+| **Bluetooth Gamepad Support**           | ❌        | ✅      |
 | **Custom Themes & Icons**               | ❌        | ✅      |
-| **Autostart & Performance Tweaks**      | ❌        | ❌      |
+| **Autostart & Performance Tweaks**      | ❌        | ✅      |
 | **Offline Assets (wallpapers etc.)**    | ✅ Minimal| ✅      |
 | **Proot-Distro Options**                | 1 (Debian)| 2+      |
 | **Termux:X11 & VNC GUI Support**        | ✅        | ✅      |
 | **ASCII Art UI Installer**              | ✅        | ✅      |
 | **Hardware Compatibility Check**        | ✅        | ✅      |
 | **Auto-Update Ready**                   | ❌        | ⚠️ Manual|
-| **Priority Support & Bug Fixes**        | ❌        | ❌      |
+| **Priority Support & Bug Fixes**        | ❌        | ✅      |
 
 ---
 
