@@ -259,7 +259,12 @@ NeoDeskX एक premium setup है जो advanced features और ready-to-us
 
 > **UPI / PayPal / Ko-fi support available.**  
 > खरीदने के लिए: [notvansh6@gmail.com](mailto:notvansh6@gmail.com) पर संपर्क करें या Telegram पर message करें।
+> **Contact to Purchase**:  
+> • **Telegram**: [@CyberVanshcoder](https://t.me/CyberVanshcoder)  
+> • **Phone/WhatsApp**: `+91 80767 76188`  
+> • **Email**: [notvansh6@gmail.com](mailto:notvansh6@gmail.com)
 
+---
 ---
 
 ❓ FAQ
