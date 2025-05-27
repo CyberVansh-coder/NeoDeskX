@@ -4,48 +4,105 @@ NeoDeskX is a powerful all-in-one Termux-based Linux desktop setup for Android d
 
 Whether you're a developer, gamer, or tech enthusiast, NeoDeskX delivers a portable and flexible desktop experience directly on your Android device without root access.
 
-## Key Features:
+## Features:
 
-- books: **Quick Setup:** Easy-to-follow installation process.
-- desktop_computer: **Desktop Styles:** Supports **XFCE**, **LXQt**, and **OPENBOX** with beautiful themes.
-- wine_glass: **Windows App Support:** Run Windows apps using Wine (x86_64 on ARM64 devices).
-- mechanical_arm: **Hardware Acceleration:** Enhances performance for supported hardware.
-- paperclips: **GUI Access:** Supports Termux:X11 and VNC.
-- shopping: **App Store:** A appstore to install apps from termux and suppoted proot-distro.
-- jigsaw: **One-Click App
+---
 
-- XFCE4 Desktop Environment
-Lightweight and responsive graphical interface ideal for mobile devices.
+✨ Key Features of NeoDeskX
 
-- Wine 32-bit Support
-Run classic Windows applications like GTA Vice City, Counter-Strike 1.6, Notepad++, etc.
+⚡ Quick & Easy Installation
 
-- Pre-installed Lightweight Linux Games
-Includes SuperTux, Pingus, LBreakout2, SuperTuxKart, and more for offline fun.
+Seamless, beginner-friendly setup process using a single command.
 
-- Game Streaming with Moonlight
-Stream high-end PC games (like GTA V, Cyberpunk 2077) to Android via NVIDIA GameStream.
 
-- USB & WiFi Input Bridge
-Use your Android device as a full mouse and keyboard over USB or WiFi — ideal for remote desktop sessions.
+🖥️ Desktop Environments
 
-- External Gamepad/Joystick Support
-Connect and use external Bluetooth/USB controllers for enhanced gaming.
+Supports XFCE, LXQt, MATE, Openbox, i3WM, and more — all with modern, responsive themes.
 
-- Custom Installer with UI Banners
-Eye-catching ASCII art banners and UI for installation steps.
 
-- Hardware Compatibility Check
-Automatically verifies Android version, GPU, architecture, storage, and more before installation.
+🍷 Windows App Support
 
-- Offline Assets & Wallpapers
-Includes .7z archive with wallpapers, configuration files, and helper scripts for seamless setup.
+Run Windows apps via Wine (32-bit and 64-bit) on ARM64 — supports games like GTA Vice City, CS 1.6, Notepad++, and more.
 
-- Multi-DE Support (Optional)
-Choose between XFCE, LXQT, MATE, i3WM, Openbox, and more — tailored to your needs.
 
-- No Root Required
-100% Termux-compatible and works without any root access.
+⚙️ Optimized Performance
+
+Hardware acceleration enabled for supported GPUs and devices for smoother experience.
+
+
+🖱️ GUI Access Options
+
+Supports both Termux:X11 and VNC Viewer for graphical desktop environments.
+
+
+🛍️ Built-in App Store
+
+One-click install apps from curated lists compatible with Termux and Proot-distro environments.
+
+
+
+---
+
+🎮 Gaming & Multimedia
+
+🎨 Pre-Configured XFCE Desktop
+
+Lightweight, mobile-optimized desktop with a polished look and feel.
+
+
+🎮 Pre-installed Classic Games
+
+Includes open-source games like SuperTux, SuperTuxKart, Pingus, LBreakout2, and more for offline fun.
+
+
+🌐 Game Streaming with Moonlight
+
+Stream high-end PC games like GTA V, Cyberpunk 2077, etc. via NVIDIA GameStream.
+
+
+🎮 External Gamepad Support
+
+Connect Bluetooth or USB gamepads and joysticks for an enhanced gaming experience.
+
+
+
+---
+
+🛠️ Input & Control Features
+
+🔌 USB & WiFi Input Bridge
+
+Use your Android as a mouse & keyboard — ideal for remote desktops.
+
+
+🧩 One-Click App Support
+
+Simplified launcher for launching Wine apps, games, or tools instantly.
+
+
+
+---
+
+📦 Additional Enhancements
+
+📊 Hardware Compatibility Checker
+
+Automatically checks for Android version, CPU architecture, storage, and GPU support.
+
+
+🖼️ Offline Assets Bundle
+
+.7z archive includes wallpapers, config files, custom scripts, and essential binaries.
+
+
+🎯 No Root Required
+
+100% Termux-based — works on any Android 8+ device without root access.
+
+
+🖼️ Custom Installer UI
+
+Stylish terminal UI with ASCII banners and step-by-step prompts for better clarity.
 
 --- 
 
