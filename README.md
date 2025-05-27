@@ -253,9 +253,9 @@ NeoDeskX एक premium setup है जो advanced features और ready-to-us
 
 | Version | Included Features | Price (INR) | Price (USD) |
 |---------|-------------------|-------------|-------------|
-| **Basic** | XFCE desktop, Wine support, Linux games | ₹199 | $2.49 |
-| **Pro** | Full Wine32, Input Bridge (USB/WiFi), Moonlight, Wallpapers, Themes, App Store | ₹349 | $4.49 |
-| **Ultimate** | All features + Personal Support + Early Updates | ₹499 | $6.49 |
+| **Basic** | XFCE desktop, Wine support, Linux games | ₹99 | $1.29 |
+| **Pro** | Full Wine32, Input Bridge (USB/WiFi), Moonlight, Wallpapers, Themes, App Store | ₹199 | $2.49 |
+| **Ultimate** | All features + Personal Support + Early Updates | ₹299 | $3.99 |
 
 > UPI / PayPal / Ko-fi support available.
 
