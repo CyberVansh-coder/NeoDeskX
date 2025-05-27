@@ -33,8 +33,7 @@ echo ""
 echo "Which edition do you want to install?"
 echo "1) Basic"
 echo "2) Pro"
-echo "3) Ultimate"
-read -p "Enter choice [1-3]: " choice
+read -p "Enter choice [1-2]: " choice
 
 case $choice in
   1)
@@ -42,9 +41,6 @@ case $choice in
     ;;
   2)
     FILE="NeoDeskX_Pro.7z"
-    ;;
-  3)
-    FILE="NeoDeskX_Ultimate.7z"
     ;;
   *)
     echo "[!] Invalid choice. Exiting..."
@@ -61,22 +57,25 @@ else
   exit 1
 fi
 
-# Step 4: Look for .zip inside and extract if exists
+# Step 4: Process based on edition
 cd NeoDeskX || { echo "[!] NeoDeskX folder missing"; exit 1; }
 
-ZIP_FILE=$(find . -type f -name "*.zip" | head -n 1)
+if [ "$choice" = "2" ]; then
+  ZIP_FILE="NeoDeskX_Pro.zip"
+  if [ -f "$ZIP_FILE" ]; then
+    echo "[*] Extracting $ZIP_FILE..."
+    unzip -o "$ZIP_FILE" || { echo "[!] Failed to extract $ZIP_FILE"; exit 1; }
+  else
+    echo "[!] $ZIP_FILE not found!"
+    exit 1
+  fi
+  chmod +x setup-termux-NeoDeskX-pro
+  ./setup-termux-NeoDeskX-pro || { echo "[!] Pro setup failed"; exit 1; }
 
-if [ -n "$ZIP_FILE" ]; then
-  echo "[*] Found ZIP archive inside: $ZIP_FILE"
-  echo "[*] Extracting $ZIP_FILE..."
-  unzip -o "$ZIP_FILE" || { echo "[!] Failed to extract $ZIP_FILE"; exit 1; }
 else
-  echo "[*] No internal ZIP archive found, continuing..."
+  chmod +x setup-termux-NeoDeskX
+  ./setup-termux-NeoDeskX || { echo "[!] Basic setup failed"; exit 1; }
 fi
-
-# Step 5: Setup execution
-chmod +x setup-termux-NeoDeskX
-./setup-termux-NeoDeskX || { echo "[!] Setup failed"; exit 1; }
 
 echo ""
 echo -e "\033[1;32m[✔] NeoDeskX Installed Successfully!\033[0m"
